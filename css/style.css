@@ -33,8 +33,9 @@ h1 {
 }
 .nav-link {
   font-family: 'Montserrat';
-  font-weight: 100;
+  font-weight: 400;
   font-size: 1.2rem;
+  color: #fff;
 }
 #intro {
 
@@ -119,10 +120,10 @@ h1 {
   text-align: center;
 }
 .card-row{
-  padding: 7% 18% 10%;
+  padding: 5% 15% 10%;
 }
 .pricing-h2 {
-  margin-top: 7%;
+  margin-top: 6%;
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 2rem;
@@ -149,8 +150,58 @@ h1 {
   font-size: 2rem;
 }
 .btn-card {
+  margin-top: 40px;
 }
+.card-title {
+  margin-bottom: 15px;
+}
+.card-text {
+  text-align: left;
+  padding-left: 25%;
+}
+
+ /* Footer */
+#bottom {
+  text-align: center;
+}
+
+#outro {
+  background: #ff4c68;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-family: 'Montserrat';
+}
+.outro-h3 {
+  font-weight: 900;
+  color: #fff;
+  padding: 0px 18% 2%;
+  font-size: 3rem;
+
+}
+.outro-btn {
+  padding-top: 2%;
+  line-height: 2;
+}
+
+#footer {
+  padding: 7% 0 0;
+  height: 1.5rem;
+  background-color: #fff;
+}
+.span-footer {
+  padding: 0 1%;
+}
+.footer-p {
+  padding-top: 2%;
+  font-size: 1.2rem;
+  color: #8f8f8f;
+}
+
+/* Responsiveness */
 @media (min-width: 1233px) {
+  .title {
+    text-align: left;
+  }
   #iphone6 {
     transform: rotate(25deg);
     position: relative;
@@ -170,40 +221,10 @@ h1 {
   .col-card{
     padding: 0;
   }
-}
- /* Footer */
-#bottom {
-  text-align: center;
-}
-
-.outro {
-  background: #ff4c68;
-  padding-top: 7%;
-  padding-bottom: 7%;
-  font-family: 'Montserrat';
-}
-.outro-h3 {
-  font-weight: 900;
-  color: #fff;
-  padding: 0px 30%;
-  font-size: 2rem;
-
-}
-.outro-btn {
-  padding-top: 2%;
-  line-height: 2;
-}
-
-.footer {
-  padding: 7% 0 0;
-  height: 1.5rem;
-  background-color: #fff;
-}
-.span-footer {
-  padding: 0 1%;
-}
-.footer-p {
-  padding-top: 2%;
-  font-size: 1.2rem;
-  color: #8f8f8f;
+  .card-text {
+    padding-left: 15%;
+  }
+  .outro-h3 {
+    padding: 0 30% 2%;
+  }
 }
